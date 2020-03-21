@@ -1,0 +1,143 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.21.1/libexec/bin/yarn.js add react-router=dom
+
+PATH: 
+  /Users/Angie/google-cloud-sdk/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Users/Angie/google-cloud-sdk/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  12.13.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.npmjs.org/react-router=dom: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:66947:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:140665:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141637:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.21.1/libexec/lib/cli.js:141559:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1183:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "manager",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+      "antd": "^3.4.3",
+      "autoprefixer": "7.1.6",
+      "axios": "^0.18.0",
+      "babel-core": "6.26.0",
+      "babel-eslint": "7.2.3",
+      "babel-jest": "20.0.3",
+      "babel-loader": "7.1.2",
+      "babel-plugin-import": "^1.7.0",
+      "babel-preset-react-app": "^3.1.1",
+      "babel-runtime": "6.26.0",
+      "case-sensitive-paths-webpack-plugin": "2.1.1",
+      "chalk": "1.1.3",
+      "css-loader": "0.28.7",
+      "dotenv": "4.0.0",
+      "dotenv-expand": "4.2.0",
+      "draftjs-to-html": "^0.8.4",
+      "echarts": "^4.1.0",
+      "echarts-for-react": "^2.0.12-beta.0",
+      "eslint": "4.10.0",
+      "eslint-config-react-app": "^2.1.0",
+      "eslint-loader": "1.9.0",
+      "eslint-plugin-flowtype": "2.39.1",
+      "eslint-plugin-import": "2.8.0",
+      "eslint-plugin-jsx-a11y": "5.1.1",
+      "eslint-plugin-react": "7.4.0",
+      "extract-text-webpack-plugin": "3.0.2",
+      "file-loader": "1.1.5",
+      "fs-extra": "3.0.1",
+      "html-webpack-plugin": "2.29.0",
+      "jest": "20.0.4",
+      "jsonp": "^0.2.1",
+      "less": "^2.7.3",
+      "less-loader": "^4.1.0",
+      "object-assign": "4.1.1",
+      "postcss-flexbugs-fixes": "3.2.0",
+      "postcss-loader": "2.0.8",
+      "promise": "8.0.1",
+      "raf": "3.4.0",
+      "react": "^16.3.2",
+      "react-dev-utils": "^5.0.1",
+      "react-dom": "^16.3.2",
+      "react-draft-wysiwyg": "^1.12.13",
+      "react-redux": "^5.0.7",
+      "react-router-dom": "^4.2.2",
+      "redux": "3.7.2",
+      "redux-devtools-extension": "^2.13.2",
+      "resolve": "1.6.0",
+      "style-loader": "0.19.0",
+      "sw-precache-webpack-plugin": "0.11.4",
+      "url-loader": "0.6.2",
+      "webpack": "3.8.1",
+      "webpack-dev-server": "2.9.4",
+      "webpack-manifest-plugin": "1.3.2",
+      "whatwg-fetch": "2.0.3"
+    },
+    "scripts": {
+      "start": "node scripts/start.js",
+      "build": "node scripts/build.js",
+      "test": "node scripts/test.js --env=jsdom"
+    },
+    "jest": {
+      "collectCoverageFrom": [
+        "src/**/*.{js,jsx,mjs}"
+      ],
+      "setupFiles": [
+        "<rootDir>/config/polyfills.js"
+      ],
+      "testMatch": [
+        "<rootDir>/src/**/__tests__/**/*.{js,jsx,mjs}",
+        "<rootDir>/src/**/?(*.)(spec|test).{js,jsx,mjs}"
+      ],
+      "testEnvironment": "node",
+      "testURL": "http://localhost",
+      "transform": {
+        "^.+\\.(js|jsx|mjs)$": "<rootDir>/node_modules/babel-jest",
+        "^.+\\.css$": "<rootDir>/config/jest/cssTransform.js",
+        "^(?!.*\\.(js|jsx|mjs|css|json)$)": "<rootDir>/config/jest/fileTransform.js"
+      },
+      "transformIgnorePatterns": [
+        "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|mjs)$"
+      ],
+      "moduleNameMapper": {
+        "^react-native$": "react-native-web"
+      },
+      "moduleFileExtensions": [
+        "web.js",
+        "js",
+        "json",
+        "web.jsx",
+        "jsx",
+        "node",
+        "mjs"
+      ]
+    },
+    "babel": {
+      "presets": [
+        "react-app"
+      ]
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
